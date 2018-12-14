@@ -126,7 +126,7 @@ function checkAnswer(e) {
 
         $("#score").text(score);
 
-        faderRight();
+
 
         $(".answer").stop(true, true).show().css("color", "#00f700").text("Good");
 
@@ -135,7 +135,7 @@ function checkAnswer(e) {
         }, 750);
 
   updateNote();
-
+  faderRight();
 
     } else {
         if (score != 0)
