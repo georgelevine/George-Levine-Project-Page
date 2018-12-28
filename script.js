@@ -131,19 +131,22 @@ function checkAnswer(e) {
         $(".answer").stop(true, true).show().css("color", "#00f700").text("Good");
 
         setTimeout(function() {
-            $(".answer").fadeOut(125);
-        }, 750);
+        
 
+            $(".answer").fadeOut(125);
+
+        }, 750);
   updateNote();
-  faderRight();
+
 
     } else {
         if (score != 0)
             score--;
 
         $("#score").text(score);
+
         $(".answer").stop(true, true).show().css("color", "#ff1f1f").text("Wrong");
-        faderWrong();
+
         setTimeout(function() {
             $(".answer").fadeOut(500);
         }, 125);

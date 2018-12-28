@@ -8,14 +8,16 @@ body {
   padding-top: 10%;
   background-image: url(../img/d28tee.png);
   background-repeat: no-repeat;
-  background-size: 350%;
+  background-size: 300%;
   background-position: center;
-  background-blend-mode: overlay;
+
 
 }
 .container {
   width: 100%;
 
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 .fretboard-grid {
@@ -23,6 +25,8 @@ body {
   width: max-content;
   margin: auto;
   user-select: none;
+  padding-left: 5%;
+  padding-right: 7%;
 
 }
 .string {
@@ -54,7 +58,6 @@ body {
   margin: auto;
 }
 .answer {
-  position: absolute;
   top: 0;
   float: left;
   display: none;
