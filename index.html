@@ -32,50 +32,51 @@ A system restart may be necessary.
 
 
 <h3>Beacon</h3>
---------------------
-Hardware: Arduino IDE Adafruit Feather nRF52 Bluefruit LE
-Function: Bluetooth LE Output Broadcast
-Bootloader: s132 6.1.1 r0, Level 0 (Release)\
-Programmer: Arduino as ISP
+<ul>
 
+<li>Hardware: Arduino IDE Adafruit Feather nRF52 Bluefruit LE</li>
+<li>Function: Bluetooth LE Output Broadcast</li>
+<li>Bootloader: s132 6.1.1 r0, Level 0 (Release)</li>
+<li>Programmer: Arduino as ISP</li>
+</ul><ul>
 <h3>Wearable</h3>
-----------------
-Hardware: Raspberry Pi 3 Model B+
-Functon: Gateway Reciever
-OS: Raspian 4.14.79-v7+
-Memory: SanDisk Class 10 micro-SD card (16GB)
+
+<li>Hardware: Raspberry Pi 3 Model B+</li>
+<li>Functon: Gateway Reciever</li>
+<li>OS: Raspian 4.14.79-v7+</li>
+<li>Memory: SanDisk Class 10 micro-SD card (16GB)</li>
 
 <h3>Vibration</h3>
-----------------
-Hardware: Mini Motor Disk
-Function: Mechanical User Alert
-Location: Afixed to Wearable Reciever GPIO pin 17
-Size: 10mm diameter, 2.7mm thick
-Current draw: 5V @ 100mA
-Weight: 0.9 gram
+<ul>
+<li>Hardware: Mini Motor Disk</li>
+<li>Function: Mechanical User Alert</li>
+<li>Location: Afixed to Wearable Reciever GPIO pin 17</li>
+<li>Size: 10mm diameter, 2.7mm thick</li>
+<li>Current draw: 5V @ 100mA</li>
+<li>Weight: 0.9 gram</li>
 
 Prerequisites
-=============
 
+<ul>
 <h3>noble</h3>
  <li>Function: Enables Raspberry Pi to read surrounding bluetooth signals.</li>
-
+</ul>
 <h3>onoff</h3>
-
+<ul>
 <li>Function: GPIO access for Raspberry Pi.
 </li>
 <h3>node-beacon-scanner</h3>
 <li>Function: Parses the Bluetooth beacon packet data according to the iBeacon protocol.</li>
 <li>Configuration: iBeacon</li>
-
+</ul>
 <h3>Optional</h3>
-
+<ul>
 <h3>forever-service</h3>
 <li>Function: enables app.js to run on startup</li>
+</ul>
 
 
-
-
+<ul>
 <h4>Contributors</h4>
 
 
@@ -84,14 +85,14 @@ Developers: George Levine, Brandon Neff, Zach Rowell
 Faculty Advisor:  Austin Purves, Ph.D.
 
 Funding : Manhattanville College
-
+</ul>
 <h4>Credits</h4>
 
 A special thanks to [@cruepprich](https://github.com/cruepprich/gateOpener)
 
 <p>You showed us that bluetooth low energy has pratical applications, and that the raspberry pi can indeed have an interface to control bluetooth and GPIO pins.</p>
 
-License <br> 
+License <br>
 [MIT]
 
 </body>
