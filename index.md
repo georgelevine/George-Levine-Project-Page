@@ -1,4 +1,4 @@
-<h1>George Levine</h1>
+% George Levine Projects
 # Marco Polo
 
 > An ultra low-cost, wearable navigational tool for the blind
