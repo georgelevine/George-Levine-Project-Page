@@ -1,6 +1,4 @@
 # Marco Polo
-![build status][travis-image]
-
 
 > An ultra low-cost, wearable navigational tool for the blind
 
